@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A8A18D66-8694-404E-B2F7-BBE7EF6E24A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITunes.UrlShortener.Api", "src\ITunes.UrlShortener.Api\ITunes.UrlShortener.Api.csproj", "{D85BB355-A51A-4EAB-B77E-F4A20E0CB213}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITunes.UrlShortener.DataUnit", "src\libs\ITunes.UrlShortener.DataUnit\ITunes.UrlShortener.DataUnit.csproj", "{88E531EB-C9F6-4D6B-868C-761EBDC5ECDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITunes.UrlShortener.Entities", "src\libs\ITunes.UrlShortener.Entities\ITunes.UrlShortener.Entities.csproj", "{10FDA806-FA56-42A3-AF2C-B3A0BD0ADBCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITunes.UrlShortener.Service", "src\libs\ITunes.UrlShortener.Service\ITunes.UrlShortener.Service.csproj", "{16F91518-2851-4CB9-8F4D-B04D5F7C79E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITunes.UrlShortener.WebUI", "src\ITunes.UrlShortener.WebUI\ITunes.UrlShortener.WebUI.csproj", "{E202CAFF-2AF2-422B-A953-3727AF8B3C17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{215CDD72-C9FA-4C54-A8FE-E1D8ED85C913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITunes.Test", "test\ITunes.Test\ITunes.Test.csproj", "{00572841-7469-45E3-8CB1-80F3CFCB200E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D85BB355-A51A-4EAB-B77E-F4A20E0CB213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85BB355-A51A-4EAB-B77E-F4A20E0CB213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85BB355-A51A-4EAB-B77E-F4A20E0CB213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85BB355-A51A-4EAB-B77E-F4A20E0CB213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E531EB-C9F6-4D6B-868C-761EBDC5ECDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E531EB-C9F6-4D6B-868C-761EBDC5ECDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E531EB-C9F6-4D6B-868C-761EBDC5ECDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E531EB-C9F6-4D6B-868C-761EBDC5ECDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FDA806-FA56-42A3-AF2C-B3A0BD0ADBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FDA806-FA56-42A3-AF2C-B3A0BD0ADBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FDA806-FA56-42A3-AF2C-B3A0BD0ADBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FDA806-FA56-42A3-AF2C-B3A0BD0ADBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F91518-2851-4CB9-8F4D-B04D5F7C79E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F91518-2851-4CB9-8F4D-B04D5F7C79E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F91518-2851-4CB9-8F4D-B04D5F7C79E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F91518-2851-4CB9-8F4D-B04D5F7C79E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E202CAFF-2AF2-422B-A953-3727AF8B3C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E202CAFF-2AF2-422B-A953-3727AF8B3C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E202CAFF-2AF2-422B-A953-3727AF8B3C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E202CAFF-2AF2-422B-A953-3727AF8B3C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00572841-7469-45E3-8CB1-80F3CFCB200E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00572841-7469-45E3-8CB1-80F3CFCB200E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00572841-7469-45E3-8CB1-80F3CFCB200E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00572841-7469-45E3-8CB1-80F3CFCB200E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D85BB355-A51A-4EAB-B77E-F4A20E0CB213} = {A8A18D66-8694-404E-B2F7-BBE7EF6E24A0}
+		{88E531EB-C9F6-4D6B-868C-761EBDC5ECDE} = {A8A18D66-8694-404E-B2F7-BBE7EF6E24A0}
+		{10FDA806-FA56-42A3-AF2C-B3A0BD0ADBCD} = {A8A18D66-8694-404E-B2F7-BBE7EF6E24A0}
+		{16F91518-2851-4CB9-8F4D-B04D5F7C79E8} = {A8A18D66-8694-404E-B2F7-BBE7EF6E24A0}
+		{E202CAFF-2AF2-422B-A953-3727AF8B3C17} = {A8A18D66-8694-404E-B2F7-BBE7EF6E24A0}
+		{00572841-7469-45E3-8CB1-80F3CFCB200E} = {215CDD72-C9FA-4C54-A8FE-E1D8ED85C913}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78B091B0-AC50-4191-AB31-6255A0297C32}
+	EndGlobalSection
+EndGlobal
